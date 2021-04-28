@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
+	<link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
+	<link rel="stylesheet" href="css/estilos.css">
+	<title>El gauchito</title>
+</head>
+
+<body>
+	<div class="contenedor">
+		<main>
+			<div class="logo">
+				<img src="img/gauchito.jpg" style="width: 150px" alt="">
+				<h1>El gauchito</h1>
+				<p>Pastas 100 % Artesanales</p>
+			</div>
+			<form action="">
+				<input type="text" class="barra-busqueda" id="barra-busqueda" placeholder="Buscar...">
+			</form>
+			<div class="categorias" id="categorias">
+				<a href="#" class="activo">Pastas</a>
+				<a href="#">Pastas frescas</a>
+				<a href="#">Pastas congeladas</a>
+
+			</div>
+		</main>
+		<section class="grid" id="grid">
+			<div class="item" data-categoria="pastas frescas" data-etiquetas="capeletis en caja"
+				data-descripcion="Capeletis: •jamón y muzza •acelga y ricota •calabaza y pollo.">
+				<div class="item-contenido">
+					<img src="img/capeletis1.jpg" alt="">
+				</div>
+			</div>
+
+			<div class="item" data-categoria="pastas frescas" data-etiquetas="Fideos cinta al huevo "
+				data-descripcion="Fideos cinta al huevo ">
+				<div class="item-contenido">
+					<img src="img/cintas1.jpg" alt="">
+				</div>
+			</div>
+
+			<div class="item" data-categoria="pastas frescas" data-etiquetas="torteletis rellenos"
+				data-descripcion="torteletis: •Jamón y muzza  •Acelga y ricota •Calabaza y muzza •Pollo y calabaza.">
+				<div class="item-contenido">
+					<img src="img/torteletis1.jpg" alt="">
+				</div>
+			</div>
+
+			<div class="item" data-categoria="pastas congeladas" data-etiquetas="empanadas frizadas"
+				data-descripcion="Empanadas congeladas">
+				<div class="item-contenido">
+					<img src="img/empanadas1.jpg" alt="">
+				</div>
+			</div>
+		</section>
+
+		<section class="overlay" id="overlay">
+			<div class="contenedor-img">
+				<button id="btn-cerrar-popup"><i class="fas fa-times"></i></button>
+				<img src="" alt="">
+			</div>
+			<p class="descripcion"></p>
+		</section>
+		<section class="recorda mb-15">
+			<div>
+				<h4>RECORDÁ!</h4>
+				<span>Sólo recibimos pedidos con una anticipación de al menos 24 horas para poder disponer
+					de la mercadería fresca que quieras.</span><br>
+				<h4>HORARIOS: 9 a 15 hs y 16 a 20 hs.</h4>
+			</div>
+		</section>
+		<section class="info">
+			<article>
+				<div class="noticias">
+					<h5>Pedidos/Delivery</h5>
+					<div class="contenedor-noticias">
+						<p> Pedí al 011 5630-3761 <i class="fas fa-mobile-alt"></i></p>
+						<p>Y pasa a retirarlas en Monseñor Añeiros 2775, MORON <br><br>
+							O te la enviamos <strong>Sin cargo</strong> en zona Oeste <i
+								class="fas fa-shipping-fast"></i></p><br>
+						<p> ANTICIPATE RESERVA AHORA!<i class="fas fa-clock"></i></p><br>
+					</div>
+				</div>
+			</article>
+			<article>
+				<h5>Nuestra Ubicación</h5>
+				<iframe
+					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.2406060878225!2d-58.62795774992427!3d-34.67387646862323!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc73db6a68c53%3A0x230732606b95c07d!2sMonse%C3%B1or%20Aneiros%202775%2C%20B1708HIP%20Mor%C3%B3n%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1608742961954!5m2!1ses!2sar"
+					width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+					tabindex="0"></iframe>
+			</article>
+		</section>
+
+		<footer class="contenedor">
+			<div class="redes-sociales">
+				<div class="contenedor-icono">
+					<a href="https://wa.me/c/5491156303761" target="_blank" class="whatsapp">
+						<i class="fab fa-whatsapp"></i>
+					</a>
+				</div>
+				<div class="contenedor-icono">
+					<a href="https://www.facebook.com/ELGAUCHITOTAPASYPASTAS/" target="_blank" class="facebook">
+						<i class="fab fa-facebook-f"></i>
+					</a>
+				</div>
+				<div class="contenedor-icono">
+					<a href="https://instagram.com/pastas.el.gauchito?igshid=7e7hbtabkx5y" target="_blank"
+						class="instagram">
+						<i class="fab fa-instagram"></i>
+					</a>
+				</div>
+			</div>
+			<div class="creado-por">
+				<p>Sitio diseñado por <a href="#"><b> Jessica Delgado</b></a> 
+			</div>
+		</footer>
+
+	</div>
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+	<script src="https://unpkg.com/web-animations-js@2.3.2/web-animations.min.js"></script>
+	<script src="https://unpkg.com/muuri@0.8.0/dist/muuri.min.js"></script>
+	<script src="main.js"></script>
+</body>
+
+</html>
